@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9115C5CA2728176A007B0994 /* ASUI_NM_BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9115C5C92728176A007B0994 /* ASUI_NM_BaseTests.swift */; };
+		9115C5CC272817B2007B0994 /* ASUI_NM_dd_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9115C5CB272817B2007B0994 /* ASUI_NM_dd_Tests.swift */; };
+		9115C5CF2728181D007B0994 /* AXEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9115C5CE2728181D007B0994 /* AXEngine.swift */; };
+		9115C5D02728195A007B0994 /* AXEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9115C5CE2728181D007B0994 /* AXEngine.swift */; };
 		9162ED3F27280E68005E0390 /* Monterey_AX_UITests_apiDisabledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162ED3E27280E68005E0390 /* Monterey_AX_UITests_apiDisabledApp.swift */; };
-		9162ED4127280E68005E0390 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162ED4027280E68005E0390 /* ContentView.swift */; };
+		9162ED4127280E68005E0390 /* UITestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162ED4027280E68005E0390 /* UITestsView.swift */; };
 		9162ED4327280E69005E0390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9162ED4227280E69005E0390 /* Assets.xcassets */; };
 		9162ED4627280E69005E0390 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9162ED4527280E69005E0390 /* Preview Assets.xcassets */; };
-		9162ED5127280E69005E0390 /* Monterey_AX_UITests_apiDisabledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162ED5027280E69005E0390 /* Monterey_AX_UITests_apiDisabledTests.swift */; };
-		9162ED5B27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162ED5A27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITests.swift */; };
-		9162ED5D27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162ED5C27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9162ED4D27280E69005E0390 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9162ED3327280E67005E0390 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9162ED3A27280E68005E0390;
-			remoteInfo = "Monterey-AX-UITests-apiDisabled";
-		};
 		9162ED5727280E69005E0390 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9162ED3327280E67005E0390 /* Project object */;
@@ -34,28 +28,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9115C5C92728176A007B0994 /* ASUI_NM_BaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUI_NM_BaseTests.swift; sourceTree = "<group>"; };
+		9115C5CB272817B2007B0994 /* ASUI_NM_dd_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUI_NM_dd_Tests.swift; sourceTree = "<group>"; };
+		9115C5CE2728181D007B0994 /* AXEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXEngine.swift; sourceTree = "<group>"; };
 		9162ED3B27280E68005E0390 /* Monterey-AX-UITests-apiDisabled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monterey-AX-UITests-apiDisabled.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9162ED3E27280E68005E0390 /* Monterey_AX_UITests_apiDisabledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monterey_AX_UITests_apiDisabledApp.swift; sourceTree = "<group>"; };
-		9162ED4027280E68005E0390 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9162ED4027280E68005E0390 /* UITestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsView.swift; sourceTree = "<group>"; };
 		9162ED4227280E69005E0390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9162ED4527280E69005E0390 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9162ED4727280E69005E0390 /* Monterey_AX_UITests_apiDisabled.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Monterey_AX_UITests_apiDisabled.entitlements; sourceTree = "<group>"; };
-		9162ED4C27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monterey-AX-UITests-apiDisabledTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9162ED5027280E69005E0390 /* Monterey_AX_UITests_apiDisabledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monterey_AX_UITests_apiDisabledTests.swift; sourceTree = "<group>"; };
 		9162ED5627280E69005E0390 /* Monterey-AX-UITests-apiDisabledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monterey-AX-UITests-apiDisabledUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9162ED5A27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monterey_AX_UITests_apiDisabledUITests.swift; sourceTree = "<group>"; };
-		9162ED5C27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monterey_AX_UITests_apiDisabledUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9162ED3827280E68005E0390 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9162ED4927280E69005E0390 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,11 +58,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9115C5CD27281813007B0994 /* AXEngine */ = {
+			isa = PBXGroup;
+			children = (
+				9115C5CE2728181D007B0994 /* AXEngine.swift */,
+			);
+			path = AXEngine;
+			sourceTree = "<group>";
+		};
 		9162ED3227280E67005E0390 = {
 			isa = PBXGroup;
 			children = (
 				9162ED3D27280E68005E0390 /* Monterey-AX-UITests-apiDisabled */,
-				9162ED4F27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests */,
 				9162ED5927280E69005E0390 /* Monterey-AX-UITests-apiDisabledUITests */,
 				9162ED3C27280E68005E0390 /* Products */,
 			);
@@ -86,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				9162ED3B27280E68005E0390 /* Monterey-AX-UITests-apiDisabled.app */,
-				9162ED4C27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests.xctest */,
 				9162ED5627280E69005E0390 /* Monterey-AX-UITests-apiDisabledUITests.xctest */,
 			);
 			name = Products;
@@ -95,8 +87,9 @@
 		9162ED3D27280E68005E0390 /* Monterey-AX-UITests-apiDisabled */ = {
 			isa = PBXGroup;
 			children = (
+				9115C5CD27281813007B0994 /* AXEngine */,
 				9162ED3E27280E68005E0390 /* Monterey_AX_UITests_apiDisabledApp.swift */,
-				9162ED4027280E68005E0390 /* ContentView.swift */,
+				9162ED4027280E68005E0390 /* UITestsView.swift */,
 				9162ED4227280E69005E0390 /* Assets.xcassets */,
 				9162ED4727280E69005E0390 /* Monterey_AX_UITests_apiDisabled.entitlements */,
 				9162ED4427280E69005E0390 /* Preview Content */,
@@ -112,19 +105,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9162ED4F27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests */ = {
-			isa = PBXGroup;
-			children = (
-				9162ED5027280E69005E0390 /* Monterey_AX_UITests_apiDisabledTests.swift */,
-			);
-			path = "Monterey-AX-UITests-apiDisabledTests";
-			sourceTree = "<group>";
-		};
 		9162ED5927280E69005E0390 /* Monterey-AX-UITests-apiDisabledUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9162ED5A27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITests.swift */,
-				9162ED5C27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITestsLaunchTests.swift */,
+				9115C5C92728176A007B0994 /* ASUI_NM_BaseTests.swift */,
+				9115C5CB272817B2007B0994 /* ASUI_NM_dd_Tests.swift */,
 			);
 			path = "Monterey-AX-UITests-apiDisabledUITests";
 			sourceTree = "<group>";
@@ -148,24 +133,6 @@
 			productName = "Monterey-AX-UITests-apiDisabled";
 			productReference = 9162ED3B27280E68005E0390 /* Monterey-AX-UITests-apiDisabled.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9162ED4B27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9162ED6327280E69005E0390 /* Build configuration list for PBXNativeTarget "Monterey-AX-UITests-apiDisabledTests" */;
-			buildPhases = (
-				9162ED4827280E69005E0390 /* Sources */,
-				9162ED4927280E69005E0390 /* Frameworks */,
-				9162ED4A27280E69005E0390 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9162ED4E27280E69005E0390 /* PBXTargetDependency */,
-			);
-			name = "Monterey-AX-UITests-apiDisabledTests";
-			productName = "Monterey-AX-UITests-apiDisabledTests";
-			productReference = 9162ED4C27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9162ED5527280E69005E0390 /* Monterey-AX-UITests-apiDisabledUITests */ = {
 			isa = PBXNativeTarget;
@@ -198,12 +165,9 @@
 					9162ED3A27280E68005E0390 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					9162ED4B27280E69005E0390 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 9162ED3A27280E68005E0390;
-					};
 					9162ED5527280E69005E0390 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 						TestTargetID = 9162ED3A27280E68005E0390;
 					};
 				};
@@ -222,7 +186,6 @@
 			projectRoot = "";
 			targets = (
 				9162ED3A27280E68005E0390 /* Monterey-AX-UITests-apiDisabled */,
-				9162ED4B27280E69005E0390 /* Monterey-AX-UITests-apiDisabledTests */,
 				9162ED5527280E69005E0390 /* Monterey-AX-UITests-apiDisabledUITests */,
 			);
 		};
@@ -235,13 +198,6 @@
 			files = (
 				9162ED4627280E69005E0390 /* Preview Assets.xcassets in Resources */,
 				9162ED4327280E69005E0390 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9162ED4A27280E69005E0390 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,16 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9162ED4127280E68005E0390 /* ContentView.swift in Sources */,
+				9162ED4127280E68005E0390 /* UITestsView.swift in Sources */,
 				9162ED3F27280E68005E0390 /* Monterey_AX_UITests_apiDisabledApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9162ED4827280E69005E0390 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9162ED5127280E69005E0390 /* Monterey_AX_UITests_apiDisabledTests.swift in Sources */,
+				9115C5CF2728181D007B0994 /* AXEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,19 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9162ED5B27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITests.swift in Sources */,
-				9162ED5D27280E69005E0390 /* Monterey_AX_UITests_apiDisabledUITestsLaunchTests.swift in Sources */,
+				9115C5CC272817B2007B0994 /* ASUI_NM_dd_Tests.swift in Sources */,
+				9115C5CA2728176A007B0994 /* ASUI_NM_BaseTests.swift in Sources */,
+				9115C5D02728195A007B0994 /* AXEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9162ED4E27280E69005E0390 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9162ED3A27280E68005E0390 /* Monterey-AX-UITests-apiDisabled */;
-			targetProxy = 9162ED4D27280E69005E0390 /* PBXContainerItemProxy */;
-		};
 		9162ED5827280E69005E0390 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9162ED3A27280E68005E0390 /* Monterey-AX-UITests-apiDisabled */;
@@ -468,60 +413,11 @@
 			};
 			name = Release;
 		};
-		9162ED6427280E69005E0390 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZX49WKA8QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.Monterey-AX-UITests-apiDisabledTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monterey-AX-UITests-apiDisabled.app/Contents/MacOS/Monterey-AX-UITests-apiDisabled";
-			};
-			name = Debug;
-		};
-		9162ED6527280E69005E0390 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZX49WKA8QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.Monterey-AX-UITests-apiDisabledTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monterey-AX-UITests-apiDisabled.app/Contents/MacOS/Monterey-AX-UITests-apiDisabled";
-			};
-			name = Release;
-		};
 		9162ED6727280E69005E0390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -536,6 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.Monterey-AX-UITests-apiDisabledUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "Monterey-AX-UITests-apiDisabled";
 			};
@@ -545,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -581,15 +479,6 @@
 			buildConfigurations = (
 				9162ED6127280E69005E0390 /* Debug */,
 				9162ED6227280E69005E0390 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9162ED6327280E69005E0390 /* Build configuration list for PBXNativeTarget "Monterey-AX-UITests-apiDisabledTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9162ED6427280E69005E0390 /* Debug */,
-				9162ED6527280E69005E0390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

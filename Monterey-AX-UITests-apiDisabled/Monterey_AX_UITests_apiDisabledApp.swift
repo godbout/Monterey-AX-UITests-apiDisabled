@@ -11,7 +11,7 @@ import SwiftUI
 struct Monterey_AX_UITests_apiDisabledApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UITestsView()
         }
     }
 }
